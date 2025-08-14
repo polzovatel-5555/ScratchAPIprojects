@@ -15,6 +15,7 @@
 3. Запускаем:
    ```powershell
    cd ScratchSystem
+   pip install -r requirements.txt
    
    python "<название>.py"
    ```
@@ -37,6 +38,7 @@
 3. Запускаем:
    ```bash
    cd ScratchSystem
+   pip install -r requirements.txt
 
    python "<название>.py"
    # если python не работает, попробуйте python3
