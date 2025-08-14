@@ -24,11 +24,11 @@
 1. Устанавливаем нужные утилиты:
    Дистрибутивы на базе Debian:
    ```bash
-   sudo apt install git python-is-python3
+   sudo apt install git python-is-python3 python-pip
    ```
    ArchLinux:
    ```bash
-   sudo pacman -Syy git python
+   sudo pacman -Syy git python python-pip
    ```
 2. Клонируем репозиторий:
    ```bash
