@@ -24,7 +24,7 @@
 1. Устанавливаем нужные утилиты:
    Дистрибутивы на базе Debian:
    ```bash
-   sudo apt install git python-is-python3 python-pip
+   sudo apt install git python-is-python3 python3-pip
    ```
    ArchLinux:
    ```bash
