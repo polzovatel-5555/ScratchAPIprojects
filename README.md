@@ -9,12 +9,12 @@
    [Питон](https://python.org) скачивайте с оффициального сайта! (я не помню название пакета в winget)
 2. Скачиваем программы:
    ```powershell
-   git clone https://github.com/polzovatel-5555/ScratchSystem.git
+   git clone https://github.com/polzovatel-5555/ScratchAPIprojects.git
    ```
-   .git необезательна но я советую её в конец дописать
+   .git необезательно в конец дописывать но я советую это сделать
 3. Запускаем:
    ```powershell
-   cd ScratchSystem
+   cd ScratchAPIprojects
    pip install -r requirements.txt
    
    python "<название>.py"
@@ -32,12 +32,12 @@
    ```
 2. Клонируем репозиторий:
    ```bash
-   git clone https://github.com/polzovatel-5555/ScratchSystem.git
+   git clone https://github.com/polzovatel-5555/ScratchAPIprojects.git
    ```
-   .git необезательна но я советую её в конец дописать
+   .git необезательно писать в конец но я советую это сделать
 3. Запускаем:
    ```bash
-   cd ScratchSystem
+   cd ScratchAPIprojects
    pip install -r requirements.txt
 
    python "<название>.py"
