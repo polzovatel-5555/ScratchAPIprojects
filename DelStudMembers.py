@@ -75,7 +75,6 @@ def promote(studio, username, cookie):
 def removeuser(studio, user, cookie):
     resp = requests.put(f"https://scratch.mit.edu/site-api/users/curators-in/{str(studio)}/remove/?usernames={user}", headers=cookie)
     return resp.status_code
-#------------------------------------------------# https://scratch.mit.edu/site-api/users/curators-in/50774852/invite_curator/?usernames=a
 def invite(studio, user, cookie):
     resp = requests.put(f"https://scratch.mit.edu/site-api/users/curators-in/{str(studio)}/invite_curator/?usernames={user}", headers=cookie)
     if resp.status_code == 200:
@@ -210,3 +209,4 @@ while isworking:
                 mustchoosestudio = True
                 loop = False
             print("------------------------")
+
