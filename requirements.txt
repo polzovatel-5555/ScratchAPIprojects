@@ -2,9 +2,6 @@ certifi==2025.8.3
 charset-normalizer==3.4.3
 colorama==0.4.6
 idna==3.10
-PyQt5==5.15.11
-PyQt5-Qt5==5.15.2
-PyQt5_sip==12.17.0
 PyQt6==6.9.1
 PyQt6-Qt6==6.9.1
 PyQt6_sip==13.10.2
